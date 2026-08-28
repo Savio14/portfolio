@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu treino para o portfólio</title>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Sávio Cavalcante</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#graduacao">Curso de Graduação</a></li>
+        <li><a href="#experiencias">Experiências</a></li>
+    </ul>
+</nav>
+
+<main>
+
+    <section id="sobre">
+        <h2>Sobre mim</h2>
+        <p>Teste de texto 1.</p>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <p>Teste de texto 2.</p>
+    </section>
+
+    <section id="graduacao">
+        <h2>Curso de Graduação</h2>
+        <p>Teste de texto 3.</p>
+    </section>
+
+    <section id="experiencias">
+        <h2>Experiências</h2>
+        <p>Teste de texto 4.</p>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Sávio Cavalcante</p>
+    <ul>
+        <li><a href="mailto:savioviniciuscavalcantel@gmail.com">E-mail</a></li>
+        <li><a href="https://github.com/savio-cavalcante" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/savio-lima-53a013429" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+    </ul>
+</footer>
+
+</body>
+</html>

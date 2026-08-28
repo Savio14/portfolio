@@ -1,4 +1,4 @@
-# PROJETO PORTIFÓLIO - INCLUDE
+# PROJETO PORTFÓLIO - INCLUDE
 Autor: Sávio Vinicius Cavalcante Lima
 Curso: Engenharia de Software
 
