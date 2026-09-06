@@ -10,6 +10,11 @@ Este portfólio surgiu como um desafio da Include Jr, empresa júnior criada por
 - CSS3
 - JavaScript
 
+# Funcionalidades Diferenciais
+- Design Responsivo: Layout totalmente adaptado para diferentes tamanhos de tela.
+- Suporte ao tema Claro/Escuro (Dark/Light mode) para melhor conforto do usuário.
+
+
 # Link do Projeto em Produção
 - https://portfolio-red-nine-peo5zemg7i.vercel.app
 
