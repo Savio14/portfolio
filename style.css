@@ -35,7 +35,7 @@ body {
   );
   color: var(--cor-texto);
   transition: background-color 0.3s, color 0.3s;
-  overflow-x: hidden; /* Evita rolagem horizontal acidental no celular */
+  overflow-x: hidden; 
 }
 
 nav {
@@ -106,7 +106,7 @@ header {
   font-family: 'Bodoni Moda', serif;
   font-style: italic;
   font-weight: 700;
-  font-size: clamp(4rem, 18vw, 15rem); /* Ajustado levemente para celular */
+  font-size: clamp(4rem, 18vw, 15rem); 
   opacity: 0.12;
   white-space: nowrap;
   pointer-events: none;
@@ -119,13 +119,13 @@ header h1 {
   font-style: italic;
   font-weight: 700;
   color: var(--cor-nome);
-  font-size: clamp(2.5rem, 10vw, 7.5rem); /* Ajustado levemente para celular */
+  font-size: clamp(2.5rem, 10vw, 7.5rem); 
   margin: 0;
   transition: transform 0.2s;
 }
 
 header h1:hover {
-  transform: scale(1.1); /* Reduzido de 2.0 para evitar estourar a tela */
+  transform: scale(1.1); 
 }
 
 .subtitulo {
@@ -137,7 +137,7 @@ header h1:hover {
 }
 
 main, footer {
-  max-width: 780px; /* Atua como container fluido */
+  max-width: 780px; 
   width: 100%;
   margin: 0 auto;
   padding-left: 24px;
@@ -216,7 +216,7 @@ footer ul {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  gap: 15px; /* Garante espaço entre os links no celular */
+  gap: 15px; 
 }
 
 footer a {
@@ -243,17 +243,13 @@ footer p {
   margin-right: 6px;
 }
 
-/* =========================================
-   MEDIA QUERIES - RESPONSIVIDADE COMPLETA
-   ========================================= */
-
 @media (max-width: 768px) {
   nav {
     position: static;
     justify-content: center;
     flex-wrap: wrap;
     padding: 16px;
-    background-color: var(--cor-fundo); /* Previne conflito de leitura no topo */
+    background-color: var(--cor-fundo); 
   }
 
   header {
@@ -267,7 +263,7 @@ footer p {
   }
 
   .sobre-conteudo p {
-    text-align: left; /* Mantém o texto da descrição alinhado à esquerda para boa leitura */
+    text-align: left; 
   }
 
   .hobbies-fotos {
