@@ -24,7 +24,7 @@ body.light {
 
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.6;
   background: linear-gradient(
     to bottom,
@@ -37,11 +37,6 @@ body {
   transition: background-color 0.3s, color 0.3s;
 }
 
-h2 {
-  font-family: 'Poppins', sans-serif;
-}
-
-/* Menu fixo no canto superior direito, sobreposto ao nome */
 nav {
   position: fixed;
   top: 24px;
@@ -75,7 +70,6 @@ nav ul {
   padding: 5px 14px;
   cursor: pointer;
   font-size: 13px;
-  font-family: 'Inter', sans-serif;
   transition: background-color 0.2s, color 0.2s;
 }
 
@@ -84,7 +78,6 @@ nav ul {
   color: var(--cor-fundo);
 }
 
-/* Header em tela cheia, nome centralizado */
 header {
   min-height: 100vh;
   display: flex;
@@ -109,7 +102,9 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: 'Playfair Display', serif;
+  font-family: 'Bodoni Moda', serif;
+  font-style: italic;
+  font-weight: 700;
   font-size: clamp(5rem, 22vw, 15rem);
   opacity: 0.12;
   white-space: nowrap;
@@ -119,7 +114,9 @@ header {
 header h1 {
   position: relative;
   z-index: 1;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Bodoni Moda', serif;
+  font-style: italic;
+  font-weight: 700;
   color: var(--cor-nome);
   font-size: clamp(3rem, 11vw, 7.5rem);
   margin: 0;
@@ -138,7 +135,6 @@ header h1:hover {
   z-index: 1;
 }
 
-/* Conteúdo centralizado com largura de leitura confortável */
 main, footer {
   max-width: 780px;
   margin: 0 auto;
@@ -146,7 +142,6 @@ main, footer {
   padding-right: 24px;
 }
 
-/* Seções separadas por linha simples, sem caixa de fundo */
 main section {
   padding: 56px 0;
   border-top: 1px solid var(--cor-borda);
@@ -186,27 +181,24 @@ main section p {
 
 .hobbies-conteudo {
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
   gap: 24px;
-  flex-wrap: wrap;
 }
 
 .hobbies-fotos {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 12px;
-  width: 150px;
-  flex-shrink: 0;
+  width: 100%;
 }
 
 .hobbies-fotos img {
-  width: 100%;
-  height: 130px;
+  width: 120px;
+  height: 120px;
   object-fit: cover;
   border-radius: 10px;
 }
 
-/* Footer com links distribuídos horizontalmente */
 footer {
   padding-top: 40px;
   padding-bottom: 48px;
